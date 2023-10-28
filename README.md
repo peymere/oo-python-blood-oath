@@ -49,42 +49,42 @@ When you see a `'#'`, this means the functionality will be related to the instan
 
 **`Cult`**
 
-* `Cult#name`
-  * returns a `String` that is the cult's name
-* `Cult#location`
+* `Cult#name` DONE
+  * returns a `String` that is the cult's name 
+* `Cult#location` DONE
   * returns a `String` that is the city where the cult is located
-* `Cult#founding_year`
+* `Cult#founding_year` DONE
   * returns a `Integer` that is the year the cult was founded
-* `Cult#slogan`
+* `Cult#slogan` DONE
   * returns a `String` that is this cult's slogan
 * `Cult#recruit_follower`
   * takes in an argument of a `Follower` instance and adds them to this cult's list of followers
 * `Cult#cult_population`
   * returns a `Integer` that is the number of followers in this cult
-* `Cult.all`
+* `Cult.all` DONE
   * returns an `List` of all the cults
-* `Cult.find_by_name`
-  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument
-* `Cult.find_by_location`
+* `Cult.find_by_name` DONE
+  * takes a `String` argument that is a name and returns a `Cult` instance whose name matches that argument 
+* `Cult.find_by_location` DONE
   * takes a `String` argument that is a location and returns an `List` of cults that are in that location
-* `Cult.find_by_founding_year`
+* `Cult.find_by_founding_year`DONE
   * takes a `Integer` argument that is a year and returns a list of all the cults founded in that year
 
 **`Follower`**
 
-* `Follower#name`
+* `Follower#name` DONE
   * returns a `String` that is the follower's name
-* `Follower#age`
+* `Follower#age` DONE
   * returns a `Integer` that is the age of the follower
-* `Follower#life_motto`
+* `Follower#life_motto` DONE
   * returns a `String` that is the follower's life motto
 * `Follower#cults`
   * returns an `List` of this follower's cults
 * `Follower#join_cult`
   * takes in an argument of a `Cult` instance and adds this follower to the cult's list of followers
-* `Follower.all`
+* `Follower.all` DONE
   * returns an `List` of all the followers
-* `Follower.of_a_certain_age`
+* `Follower.of_a_certain_age` DONE
   * takes a `Integer` argument that is an age and returns an `List` of followers who are the given age or older
 
 **`BloodOath`**
